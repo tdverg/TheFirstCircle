@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "classproject:blocks/faerieweed-plant",
+    "particle": "classproject:blocks/faerieweed-plant"
+  }
+}

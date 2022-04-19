@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "classproject:blocks/faeriegrass-top",
+    "up": "classproject:blocks/faeriegrass-top",
+    "north": "classproject:blocks/faeriegrass-top",
+    "east": "classproject:blocks/faeriegrass-top",
+    "south": "classproject:blocks/faeriegrass-top",
+    "west": "classproject:blocks/faeriegrass-top",
+    "particle": "classproject:blocks/faeriegrass-top"
+  }
+}

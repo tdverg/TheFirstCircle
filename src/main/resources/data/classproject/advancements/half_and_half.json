@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "classproject:tooth_half_key"
+    },
+    "title": {
+      "translate": "advancements.half_and_half.title"
+    },
+    "description": {
+      "translate": "advancements.half_and_half.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "half_and_half": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "classproject:tooth_half_key",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "classproject:eye_of_limbo_completion"
+}

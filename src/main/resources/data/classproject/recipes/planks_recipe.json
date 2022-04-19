@@ -1,0 +1,16 @@
+{
+  "group": "classproject",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "classproject:suitree_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_planks",
+    "count": 4
+  }
+}

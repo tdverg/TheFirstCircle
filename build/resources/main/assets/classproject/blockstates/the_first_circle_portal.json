@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "classproject:block/the_first_circle_portal_ew"
+    },
+    "axis=x": {
+      "model": "classproject:block/the_first_circle_portal_ns"
+    }
+  }
+}

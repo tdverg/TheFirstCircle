@@ -1,0 +1,7 @@
+{
+  "parent": "classproject:custom/scythe",
+  "textures": {
+    "0": "classproject:blocks/scythe",
+    "particle": "classproject:items/scythe"
+  }
+}

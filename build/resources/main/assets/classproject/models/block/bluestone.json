@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "classproject:blocks/bluestone",
+    "up": "classproject:blocks/bluestone",
+    "north": "classproject:blocks/bluestone",
+    "east": "classproject:blocks/bluestone",
+    "south": "classproject:blocks/bluestone",
+    "west": "classproject:blocks/bluestone",
+    "particle": "classproject:blocks/bluestone"
+  }
+}

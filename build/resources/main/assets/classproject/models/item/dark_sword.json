@@ -1,0 +1,7 @@
+{
+  "parent": "classproject:custom/darksword",
+  "textures": {
+    "0": "classproject:blocks/darksword",
+    "particle": "classproject:items/darksword"
+  }
+}

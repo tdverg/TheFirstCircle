@@ -1,0 +1,26 @@
+{
+  "group": "classproject",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "classproject:shard_of_darkness"
+    },
+    "1": {
+      "item": "classproject:shard_of_darkness"
+    },
+    "2": {
+      "item": "classproject:shard_of_darkness"
+    },
+    "3": {
+      "item": "classproject:shard_of_darkness"
+    }
+  },
+  "result": {
+    "item": "classproject:condensed_darkness",
+    "count": 1
+  }
+}

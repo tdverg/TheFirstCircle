@@ -1,0 +1,95 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "-Virgil's Offering-",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "-Virgil's Offering-",
+          "x": 160,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "SetTrades"
+          },
+          "name": "Slot #0",
+          "x": 160,
+          "y": 89
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "RemoveAsphodil"
+          },
+          "onStackTransfer": {
+            "name": "RemoveAsphodil"
+          },
+          "name": "Slot #2",
+          "x": 238,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Bring an Asphodel",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Bring an Asphodel",
+          "x": 166,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "I will help change your destiny",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "I will help change your destiny",
+          "x": 136,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

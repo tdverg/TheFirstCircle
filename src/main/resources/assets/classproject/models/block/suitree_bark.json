@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "classproject:blocks/suitreebark-top",
+    "up": "classproject:blocks/suitreebark-top",
+    "north": "classproject:blocks/suitreebark-side",
+    "east": "classproject:blocks/suitreebark-side",
+    "south": "classproject:blocks/suitreebark-side",
+    "west": "classproject:blocks/suitreebark-side",
+    "particle": "classproject:blocks/suitreebark-top"
+  }
+}

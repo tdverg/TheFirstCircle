@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "classproject:faerieweed"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_eternity.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_eternity.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_eternity": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "classproject:the_first_circle"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "classproject:eye_of_limbo_completion"
+}

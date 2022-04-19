@@ -1,0 +1,51 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Limbus"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Limbgrass"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "FirstCircleOnPlayerEnterDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "CheckFinalItem"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:Bluestone"
+    },
+    "portalParticles": {
+      "value": "SOUL_FIRE_FLAME"
+    },
+    "portalLuminance": 1,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "The Eye of Limbo",
+    "igniterTab": {
+      "value": "CUSTOM:Limbo"
+    },
+    "texture": "talismaneye3",
+    "portalTexture": "dimensionportal",
+    "enablePortal": true,
+    "onPortalTickUpdate": {
+      "name": "FirstCirclePortalParticles"
+    }
+  }
+}

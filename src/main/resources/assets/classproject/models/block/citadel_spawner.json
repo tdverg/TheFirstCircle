@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "classproject:blocks/citadelfoundation",
+    "up": "classproject:blocks/citadelfoundation",
+    "north": "classproject:blocks/citadelfoundation",
+    "east": "classproject:blocks/citadelfoundation",
+    "south": "classproject:blocks/citadelfoundation",
+    "west": "classproject:blocks/citadelfoundation",
+    "particle": "classproject:blocks/citadelfoundation"
+  }
+}

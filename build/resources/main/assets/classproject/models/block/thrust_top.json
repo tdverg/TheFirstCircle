@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "classproject:blocks/thrustanimated",
+    "top": "classproject:blocks/thrustanimated",
+    "side": "classproject:blocks/thrustanimated"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "classproject:blocks/lava-flow",
+    "particle": "classproject:blocks/lava-flow"
+  }
+}

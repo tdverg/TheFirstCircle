@@ -1,0 +1,56 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Lava",
+    "bucketName": "Lava Bucket",
+    "textureStill": "lava-stationary",
+    "textureFlowing": "lava-flow",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 4,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 10,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "lava_bucket",
+    "creativeTab": {
+      "value": "CUSTOM:Limbo"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 10,
+    "lightOpacity": 1,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 3,
+    "spawnWorldTypes": [
+      "CUSTOM:TheFirstCircle"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Limbus"
+      }
+    ],
+    "onEntityCollides": {
+      "name": "FelFireEntityCollidesInTheBlock"
+    }
+  }
+}

@@ -1,0 +1,1164 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "VirgilReadingTheAeneid",
+      "type": "painting",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virgil_reading_the_aeneid",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Limbo",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limbo",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "FamilyOfAcrobatsInjuredChild",
+      "type": "painting",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "family_of_acrobats_injured_child",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "ShardOfDarkness",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shard_of_darkness",
+      "path": "~/Items"
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "Scythe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scythe",
+      "path": "~/Tools"
+    },
+    {
+      "name": "ScytheRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scythe_recipe",
+      "path": "~/CraftingRecipes"
+    },
+    {
+      "name": "DarknessIngot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkness_ingot",
+      "path": "~/Items"
+    },
+    {
+      "name": "DarknessIngotRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkness_ingot_recipe",
+      "path": "~/CraftingRecipes"
+    },
+    {
+      "name": "AngerMinion",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anger_minion",
+      "path": "~/NPCS"
+    },
+    {
+      "name": "Felwall",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "felwall",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Lava",
+      "type": "fluid",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Environment"
+    },
+    {
+      "name": "Limbstone",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limbstone",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FelFireEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "fel_fire_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LimbstoneDoor",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limbstone_door",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CondensedDarkness",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_darkness",
+      "path": "~/Items"
+    },
+    {
+      "name": "AngerMinionEntityDies",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anger_minion_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CondensedDarknessRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_darkness_recipe",
+      "path": "~/CraftingRecipes"
+    },
+    {
+      "name": "Limbus",
+      "type": "biome",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limbus",
+      "path": "~/Environment"
+    },
+    {
+      "name": "Virgil",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virgil",
+      "path": "~/NPCS"
+    },
+    {
+      "name": "WanderingSoul",
+      "type": "livingentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wandering_soul",
+      "path": "~/NPCS"
+    },
+    {
+      "name": "Faerieweed",
+      "type": "plant",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "faerieweed",
+      "path": "~/Environment"
+    },
+    {
+      "name": "Asphodel",
+      "type": "plant",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asphodel",
+      "path": "~/Environment"
+    },
+    {
+      "name": "Bluestone",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluestone",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Limbgrass",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limbgrass",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Arcanus",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arcanus",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Testblock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "testblock",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Lutum",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lutum",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CitadelOfLimbus",
+      "type": "structure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "citadel_of_limbus",
+      "path": "~/Structures"
+    },
+    {
+      "name": "SuitreeLeaves",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suitree_leaves",
+      "path": "~/Environment"
+    },
+    {
+      "name": "SuitreeBark",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suitree_bark",
+      "path": "~/Environment"
+    },
+    {
+      "name": "Suitree",
+      "type": "structure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suitree",
+      "path": "~/Structures"
+    },
+    {
+      "name": "VirgilSpawnBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virgil_spawn_block_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "VirgilSpawnBlock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virgil_spawn_block",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "VirgilCitadelSpawnGeneration",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virgil_citadel_spawn_generation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TheFirstCircle",
+      "type": "dimension",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_first_circle",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Environment"
+    },
+    {
+      "name": "SpawnPlayerInTheFirstCircle",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawn_player_in_the_first_circle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CheckFinalItem",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "check_final_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FirstCircleOnPlayerEnterDimension",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "first_circle_on_player_enter_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WanderingSoulRightClickInteraction",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wandering_soul_right_click_interaction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "VirgilRightClickedDialogue",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virgil_right_clicked_dialogue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CheckCitadelItem",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "check_citadel_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "DungeonDoor",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon_door",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CheckDungeonItem",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "check_dungeon_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CitadelSpawnerBlockAdded",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "citadel_spawner_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CitadelSpawner",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "citadel_spawner",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Gloss",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gloss",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PlayerWeaponParticleEffects",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "player_weapon_particle_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Thrust",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thrust",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HolyKey",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_key",
+      "path": "~/Items"
+    },
+    {
+      "name": "DarkWarrior",
+      "type": "livingentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_warrior",
+      "path": "~/NPCS"
+    },
+    {
+      "name": "PlanksRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "planks_recipe",
+      "path": "~/CraftingRecipes"
+    },
+    {
+      "name": "FirstCirclePortalParticles",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "first_circle_portal_particles",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Limbdirt",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limbdirt",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ToothHalfKey",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tooth_half_key",
+      "path": "~/Items"
+    },
+    {
+      "name": "HolyKeyRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_key_recipe",
+      "path": "~/CraftingRecipes"
+    },
+    {
+      "name": "LoopHalfKey",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "loop_half_key",
+      "path": "~/Items"
+    },
+    {
+      "name": "DarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_sword_recipe",
+      "path": "~/CraftingRecipes"
+    },
+    {
+      "name": "SetTrades",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "set_trades",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SetVirgilTrade",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "set_virgil_trade",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WanderingSoulEntityDies",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wandering_soul_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SoulFragment",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_fragment",
+      "path": "~/Items"
+    },
+    {
+      "name": "VirgilTrade",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virgil_trade",
+      "path": "~/GUIs"
+    },
+    {
+      "name": "RemoveAsphodil",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remove_asphodil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "KeyLoopRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_loop_recipe",
+      "path": "~/CraftingRecipes"
+    },
+    {
+      "name": "EyeOfLimboCompletion",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eye_of_limbo_completion",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AcquireBluestone",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acquire_bluestone",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "APowerfulWeapon",
+      "type": "achievement",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_powerful_weapon",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AHiddenArtifact",
+      "type": "achievement",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_hidden_artifact",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TheFirstSteps",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_first_steps",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HolyKeyCreation",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "holy_key_creation",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HalfAndHalf",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "half_and_half",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WelcomeToEternity",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "welcome_to_eternity",
+      "path": "~/Advancements"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.classproject.limbdirt": "Limbdirt",
+      "advancements.a_powerful_weapon.descr": "The only weapon to make a citadel fall.",
+      "entity.classproject.anger_minion": "Anger Minion",
+      "fluid.classproject.lava": "Lava",
+      "advancements.a_powerful_weapon.title": "A Powerful Weapon",
+      "advancements.the_first_steps.descr": "The shards of darkness can be used to create powerful resources.",
+      "block.classproject.lava": "Lava",
+      "item.classproject.the_first_circle": "The Eye of Limbo",
+      "block.classproject.felwall": "Felwall",
+      "block.classproject.suitree_bark": "Suitree Bark",
+      "biome.classproject.limbus": "Limbus",
+      "block.classproject.limbstone": "Limbstone",
+      "item.classproject.holy_key": "Holy Key",
+      "item.classproject.tooth_half_key": "Tooth Half Key",
+      "entity.classproject.virgil": "Virgil",
+      "advancements.a_hidden_artifact.title": "A Hidden Artifact",
+      "block.classproject.bluestone": "Bluestone",
+      "advancements.eye_of_limbo_completion.descr": "Use the eye with a bluestone portal!",
+      "item.classproject.dark_warrior_spawn_egg": "Dark Warrior Spawn Egg",
+      "block.classproject.faerieweed": "Faerieweed",
+      "advancements.the_first_steps.title": "Shard Times",
+      "item.classproject.wandering_soul_spawn_egg": "Wandering Soul Spawn Egg",
+      "advancements.acquire_bluestone.title": "Acquire Bluestone",
+      "block.classproject.testblock": "Testblock",
+      "item.classproject.lava_bucket": "Lava Bucket",
+      "block.classproject.limbgrass": "Limbgrass",
+      "block.classproject.asphodel": "Asphodel",
+      "block.classproject.gloss": "Gloss",
+      "item.classproject.shard_of_darkness": "Shard Of Darkness",
+      "advancements.half_and_half.descr": "Ingots or Souls? Only the other half knows.",
+      "block.classproject.suitree_leaves": "Suitree Leaves",
+      "advancements.half_and_half.title": "Half And Half",
+      "block.classproject.arcanus": "Arcanus",
+      "block.classproject.lutum": "Lutum",
+      "item.classproject.loop_half_key": "Loop Half Key",
+      "itemGroup.tablimbo": "Limbo",
+      "advancements.a_hidden_artifact.descr": "Did this sword ever exist?",
+      "entity.classproject.wandering_soul": "Wandering Soul",
+      "block.classproject.dungeon_door": "Dungeon Door",
+      "advancements.holy_key_creation.descr": "The key holds a chance at redemption.",
+      "item.classproject.soul_fragment": "Soul Fragment",
+      "advancements.welcome_to_eternity.title": "Welcome To Eternity",
+      "block.classproject.citadel_spawner": "Citadel Spawner",
+      "advancements.welcome_to_eternity.descr": "Is redemption possible?",
+      "entity.classproject.dark_warrior": "Dark Warrior",
+      "item.classproject.anger_minion_spawn_egg": "Anger Minion Spawn Egg",
+      "advancements.holy_key_creation.title": "Holy Key Creation",
+      "item.classproject.scythe": "Scythe",
+      "block.classproject.virgil_spawn_block": "Virgil Spawn Block",
+      "item.classproject.dark_sword": "Dark Sword",
+      "subtitles.heavydirtysoul": "",
+      "block.classproject.thrust": "Thrust",
+      "item.classproject.condensed_darkness": "Condensed Darkness",
+      "advancements.acquire_bluestone.descr": "This ore is said to create dimensional rifts...",
+      "advancements.eye_of_limbo_completion.title": "The First Circle",
+      "block.classproject.limbstone_door": "Limbstone Door",
+      "item.classproject.darkness_ingot": "Darkness Ingot",
+      "item.classproject.virgil_spawn_egg": "Virgil Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "CreativeTabs",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Environment",
+        "children": []
+      },
+      {
+        "name": "Paintings",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "CraftingRecipes",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "NPCS",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "classproject",
+    "modName": "ClassProject",
+    "version": "1.0.0",
+    "author": "Ian.Stamper, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.classproject",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

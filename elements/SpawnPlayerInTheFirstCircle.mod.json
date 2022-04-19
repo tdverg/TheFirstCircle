@@ -1,0 +1,7 @@
+{
+  "_fv": 24,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" inline=\"false\" deletable=\"false\" x=\"2306\" y=\"291\"><field name=\"trigger\">player_log_in</field><next><block type=\"entity_switch_dimension\"><field name=\"dimension\">CUSTOM:TheFirstCircle</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><next><block type=\"entity_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">The First Circle is the residence of the Virtuous Pagans and Unbaptized Souls.</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></next></block></next></block></xml>"
+  }
+}

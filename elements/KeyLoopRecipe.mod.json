@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarknessIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarknessIngot"
+      },
+      {
+        "value": "CUSTOM:SoulFragment"
+      },
+      {
+        "value": "CUSTOM:DarknessIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarknessIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LoopHalfKey"
+    },
+    "name": "key_loop_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "classproject:holy_key"
+    },
+    "title": {
+      "translate": "advancements.holy_key_creation.title"
+    },
+    "description": {
+      "translate": "advancements.holy_key_creation.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "holy_key_creation": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "classproject:holy_key",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "classproject:eye_of_limbo_completion"
+}

@@ -1,0 +1,30 @@
+{
+  "group": "classproject",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "classproject:darkness_ingot"
+    },
+    "3": {
+      "item": "classproject:darkness_ingot"
+    },
+    "4": {
+      "item": "classproject:soul_fragment"
+    },
+    "5": {
+      "item": "classproject:darkness_ingot"
+    },
+    "7": {
+      "item": "classproject:darkness_ingot"
+    }
+  },
+  "result": {
+    "item": "classproject:loop_half_key",
+    "count": 1
+  }
+}

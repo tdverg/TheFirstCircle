@@ -1,0 +1,7 @@
+{
+  "parent": "classproject:custom/sphere",
+  "textures": {
+    "0": "classproject:blocks/sphere",
+    "particle": "classproject:items/sphere"
+  }
+}

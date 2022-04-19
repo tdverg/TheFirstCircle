@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "structure",
+  "definition": {
+    "structure": "floatingcitadel",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 1500,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Air",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": -10,
+    "spawnZOffset": -10,
+    "spawnWorldTypes": [
+      "CUSTOM:TheFirstCircle"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Limbus"
+      }
+    ],
+    "ignoreBlocks": "AIR",
+    "onStructureGenerated": {
+      "name": "VirgilCitadelSpawnGeneration"
+    }
+  }
+}

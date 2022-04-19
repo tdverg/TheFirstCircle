@@ -1,0 +1,12 @@
+{
+  "group": "classproject",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "classproject:condensed_darkness"
+  },
+  "result": {
+    "item": "classproject:darkness_ingot"
+  }
+}

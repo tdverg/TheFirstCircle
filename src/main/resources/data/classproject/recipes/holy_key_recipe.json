@@ -1,0 +1,20 @@
+{
+  "group": "classproject",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "classproject:tooth_half_key"
+    },
+    "1": {
+      "item": "classproject:loop_half_key"
+    }
+  },
+  "result": {
+    "item": "classproject:holy_key",
+    "count": 1
+  }
+}

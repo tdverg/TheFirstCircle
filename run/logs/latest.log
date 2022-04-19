@@ -1,0 +1,272 @@
+[14Oct2021 10:39:10.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 36.2.0, --assetIndex, 1.16, --assetsDir, C:\Users\terrell.vergith\.mcreator\gradle\caches\forge_gradle\assets, --version, MOD_DEV, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[14Oct2021 10:39:10.196] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_302 by Temurin
+[14Oct2021 10:39:10.554] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[14Oct2021 10:39:10.602] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/terrell.vergith/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.2/1cf212283d26f706fd3074318870bebd14d2a9ed/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[14Oct2021 10:39:12.517] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\terrell.vergith\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.16, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[14Oct2021 10:39:21.060] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Oct2021 10:39:21.716] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at net.minecraft.client.Minecraft.func_244735_a(Minecraft.java:556) ~[forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:388) ~[forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) ~[forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:108) [forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3-recomp.jar:?]
+[14Oct2021 10:39:21.727] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[14Oct2021 10:39:21.973] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[14Oct2021 10:39:23.096] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.0, for MC 1.16.5 with MCP 20210115.111550
+[14Oct2021 10:39:23.096] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.0 Initialized
+[14Oct2021 10:39:26.773] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[14Oct2021 10:39:26.890] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[14Oct2021 10:39:27.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[14Oct2021 10:39:27.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.0 Target: null
+[14Oct2021 10:39:32.705] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: classproject:blockstates/lava.json: java.io.FileNotFoundException: classproject:blockstates/lava.json
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=8'
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=9'
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=10'
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=11'
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=12'
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=13'
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=14'
+[14Oct2021 10:39:32.707] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=15'
+[14Oct2021 10:39:32.708] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=0'
+[14Oct2021 10:39:32.708] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=1'
+[14Oct2021 10:39:32.708] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=2'
+[14Oct2021 10:39:32.708] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=3'
+[14Oct2021 10:39:32.709] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=4'
+[14Oct2021 10:39:32.709] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=5'
+[14Oct2021 10:39:32.709] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=6'
+[14Oct2021 10:39:32.709] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'classproject:blockstates/lava.json' missing model for variant: 'classproject:lava#level=7'
+[14Oct2021 10:39:40.104] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[14Oct2021 10:39:40.105] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[14Oct2021 10:39:40.707] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[14Oct2021 10:39:40.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x2 minecraft:textures/atlas/signs.png-atlas
+[14Oct2021 10:39:40.891] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[14Oct2021 10:39:40.897] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[14Oct2021 10:39:40.905] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[14Oct2021 10:39:40.907] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[14Oct2021 10:39:40.928] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14Oct2021 10:39:42.510] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14Oct2021 10:39:42.525] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14Oct2021 10:39:42.531] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14Oct2021 10:39:43.056] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[14Oct2021 10:39:54.402] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Oct2021 10:39:54.402] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2021 10:39:54.403] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2021 10:39:54.404] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Oct2021 10:39:54.405] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2021 10:39:54.409] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3-recomp.jar
+[14Oct2021 10:39:55.791] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Oct2021 10:39:56.895] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 935 advancements
+[14Oct2021 10:39:58.268] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Oct2021 10:39:58.268] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2021 10:39:58.269] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2021 10:39:58.270] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Oct2021 10:39:58.271] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2021 10:39:58.271] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3-recomp.jar
+[14Oct2021 10:39:59.425] [Render thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Oct2021 10:40:00.338] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 935 advancements
+[14Oct2021 10:40:00.812] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Oct2021 10:40:00.848] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.16.5
+[14Oct2021 10:40:00.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Oct2021 10:40:00.958] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[14Oct2021 10:40:00.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14Oct2021 10:40:00.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[14Oct2021 10:40:00.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
+[14Oct2021 10:40:00.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[14Oct2021 10:40:00.960] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[14Oct2021 10:40:00.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[14Oct2021 10:40:00.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
+[14Oct2021 10:40:00.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
+[14Oct2021 10:40:00.961] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
+[14Oct2021 10:40:00.962] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[14Oct2021 10:40:00.962] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[14Oct2021 10:40:04.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Oct2021 10:40:04.666] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Oct2021 10:40:05.107] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[14Oct2021 10:40:05.600] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[14Oct2021 10:40:06.092] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
+[14Oct2021 10:40:06.601] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 8%
+[14Oct2021 10:40:07.091] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
+[14Oct2021 10:40:07.608] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[14Oct2021 10:40:08.099] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
+[14Oct2021 10:40:08.594] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
+[14Oct2021 10:40:09.113] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 28%
+[14Oct2021 10:40:09.592] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[14Oct2021 10:40:10.093] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 35%
+[14Oct2021 10:40:10.601] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 38%
+[14Oct2021 10:40:11.328] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 41%
+[14Oct2021 10:40:11.604] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[14Oct2021 10:40:12.106] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
+[14Oct2021 10:40:12.609] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 52%
+[14Oct2021 10:40:13.109] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
+[14Oct2021 10:40:13.622] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 61%
+[14Oct2021 10:40:14.208] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 65%
+[14Oct2021 10:40:14.607] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
+[14Oct2021 10:40:15.265] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[14Oct2021 10:40:15.933] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[14Oct2021 10:40:16.227] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[14Oct2021 10:40:16.668] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[14Oct2021 10:40:17.092] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[14Oct2021 10:40:17.155] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 12566 ms
+[14Oct2021 10:40:17.376] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 19, from 10
+[14Oct2021 10:40:18.806] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[14Oct2021 10:40:18.831] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@95a95e3
+[14Oct2021 10:40:18.848] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:4e1e52e6] logged in with entity id 156 at (251.5, 74.0, 88.5)
+[14Oct2021 10:40:18.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[14Oct2021 10:40:19.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Welcome To Eternity]
+[14Oct2021 10:40:19.883] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Welcome To Eternity]
+[14Oct2021 10:40:20.149] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[14Oct2021 10:41:01.976] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
+[14Oct2021 10:41:04.922] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 18 advancements
+[14Oct2021 10:41:19.556] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 19 advancements
+[14Oct2021 10:41:19.930] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 27 advancements
+[14Oct2021 10:41:33.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Stone Age]
+[14Oct2021 10:41:33.109] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Stone Age]
+[14Oct2021 10:41:33.171] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 42 advancements
+[14Oct2021 10:41:40.947] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Oct2021 10:41:40.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Oct2021 10:41:43.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Oct2021 10:41:43.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Oct2021 10:41:43.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/classproject:the_first_circle
+[14Oct2021 10:41:46.624] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5627ms or 112 ticks behind
+[14Oct2021 10:42:22.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A Soul is lost to Eternity
+[14Oct2021 10:42:22.433] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A Soul is lost to Eternity
+[14Oct2021 10:42:22.460] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 56 advancements
+[14Oct2021 10:42:30.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A Soul is lost to Eternity
+[14Oct2021 10:42:30.073] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A Soul is lost to Eternity
+[14Oct2021 10:42:38.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A Soul is lost to Eternity
+[14Oct2021 10:42:38.204] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A Soul is lost to Eternity
+[14Oct2021 10:42:43.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A Soul is lost to Eternity
+[14Oct2021 10:42:43.980] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A Soul is lost to Eternity
+[14Oct2021 10:42:49.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You will never escape this realm.
+[14Oct2021 10:42:49.040] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] You will never escape this realm.
+[14Oct2021 10:42:58.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You will never escape this realm.
+[14Oct2021 10:42:58.291] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] You will never escape this realm.
+[14Oct2021 10:43:18.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You will never escape this realm.
+[14Oct2021 10:43:18.889] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] You will never escape this realm.
+[14Oct2021 10:43:22.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You will never escape this realm.
+[14Oct2021 10:43:22.637] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] You will never escape this realm.
+[14Oct2021 10:43:25.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You will never escape this realm.
+[14Oct2021 10:43:25.743] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] You will never escape this realm.
+[14Oct2021 10:43:27.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Shard Times]
+[14Oct2021 10:43:27.014] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Shard Times]
+[14Oct2021 10:43:27.052] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 57 advancements
+[14Oct2021 10:43:32.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[14Oct2021 10:43:32.197] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[14Oct2021 10:44:08.158] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 58 advancements
+[14Oct2021 10:44:33.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [A Powerful Weapon]
+[14Oct2021 10:44:33.207] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [A Powerful Weapon]
+[14Oct2021 10:44:33.208] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 59 advancements
+[14Oct2021 10:45:20.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[14Oct2021 10:45:20.542] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
+[14Oct2021 10:45:25.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.106] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2310ms or 46 ticks behind
+[14Oct2021 10:45:25.129] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.130] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.130] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.130] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.130] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful weapon is required to break this door.
+[14Oct2021 10:45:25.947] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful weapon is required to break this door.
+[14Oct2021 10:45:27.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The door of the citadel withers to pieces.
+[14Oct2021 10:45:27.107] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] The door of the citadel withers to pieces.
+[14Oct2021 10:45:39.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Eternity awaits for those unredeemed.
+[14Oct2021 10:45:39.057] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Eternity awaits for those unredeemed.
+[14Oct2021 10:45:42.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I have a key half in my posession...
+[14Oct2021 10:45:42.512] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] I have a key half in my posession...
+[14Oct2021 10:45:44.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: I will trade it only for the precious Asphodel flower.
+[14Oct2021 10:45:44.508] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] I will trade it only for the precious Asphodel flower.
+[14Oct2021 10:45:54.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Half And Half]
+[14Oct2021 10:45:54.259] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Half And Half]
+[14Oct2021 10:45:54.260] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 60 advancements
+[14Oct2021 10:45:59.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: An eye is said to exist here within a powerful being.
+[14Oct2021 10:45:59.009] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] An eye is said to exist here within a powerful being.
+[14Oct2021 10:46:02.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: It's rumored possession of this eye can redeem souls.
+[14Oct2021 10:46:02.514] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] It's rumored possession of this eye can redeem souls.
+[14Oct2021 10:46:03.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Holy Key Creation]
+[14Oct2021 10:46:03.553] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Holy Key Creation]
+[14Oct2021 10:46:03.554] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 61 advancements
+[14Oct2021 10:46:06.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Use the Holy Key and change your destiny.
+[14Oct2021 10:46:06.007] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Use the Holy Key and change your destiny.
+[14Oct2021 10:46:27.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful force repels you from the door.
+[14Oct2021 10:46:27.995] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful force repels you from the door.
+[14Oct2021 10:46:28.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful force repels you from the door.
+[14Oct2021 10:46:28.343] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful force repels you from the door.
+[14Oct2021 10:46:29.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A powerful force repels you from the door.
+[14Oct2021 10:46:29.200] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A powerful force repels you from the door.
+[14Oct2021 10:46:36.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Your key withers away as the door crumbles.
+[14Oct2021 10:46:36.256] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Your key withers away as the door crumbles.
+[14Oct2021 10:46:53.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev was slain by Dark Warrior
+[14Oct2021 10:46:53.407] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev was slain by Dark Warrior
+[14Oct2021 10:46:55.315] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Oct2021 10:46:55.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Oct2021 10:46:55.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Oct2021 10:46:55.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Oct2021 10:46:55.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/classproject:the_first_circle
+[14Oct2021 10:47:00.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[14Oct2021 10:47:00.425] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[14Oct2021 10:47:31.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [The First Circle]
+[14Oct2021 10:47:31.454] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has completed the challenge [The First Circle]
+[14Oct2021 10:47:31.502] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 63 advancements
+[14Oct2021 10:47:58.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A Soul is lost to Eternity
+[14Oct2021 10:47:58.654] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A Soul is lost to Eternity
+[14Oct2021 10:48:05.253] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Oct2021 10:48:05.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Oct2021 10:48:05.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Oct2021 10:48:05.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Oct2021 10:48:05.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/classproject:the_first_circle
+[14Oct2021 10:48:07.538] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2292ms or 45 ticks behind
+[14Oct2021 10:48:10.053] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 63 advancements
+[14Oct2021 10:48:13.512] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Oct2021 10:48:13.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Oct2021 10:48:13.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Oct2021 10:48:13.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Oct2021 10:48:13.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/classproject:the_first_circle
+[14Oct2021 10:48:19.089] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Oct2021 10:48:19.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Oct2021 10:48:19.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Oct2021 10:48:19.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Oct2021 10:48:19.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/classproject:the_first_circle
+[14Oct2021 10:48:19.450] [Render thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[14Oct2021 10:48:22.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A Soul is lost to Eternity
+[14Oct2021 10:48:22.172] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] A Soul is lost to Eternity
+[14Oct2021 10:48:26.547] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[14Oct2021 10:48:26.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Oct2021 10:48:26.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Oct2021 10:48:26.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Oct2021 10:48:26.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/classproject:the_first_circle
+[14Oct2021 10:48:27.456] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[14Oct2021 10:48:27.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[14Oct2021 10:48:27.474] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[14Oct2021 10:48:27.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Oct2021 10:48:27.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Oct2021 10:48:27.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Oct2021 10:48:27.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[14Oct2021 10:48:27.752] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[14Oct2021 10:48:27.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[14Oct2021 10:48:27.754] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Oct2021 10:48:27.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[14Oct2021 10:48:27.756] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Oct2021 10:48:27.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/classproject:the_first_circle
+[14Oct2021 10:48:28.588] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_first_circle): All chunks are saved
+[14Oct2021 10:48:28.643] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[14Oct2021 10:48:28.663] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Oct2021 10:48:28.664] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Oct2021 10:48:28.670] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (the_first_circle): All chunks are saved
+[14Oct2021 10:48:32.870] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

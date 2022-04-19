@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "classproject:blocks/faeriegrass-bottom",
+    "top": "classproject:blocks/faeriegrass-top",
+    "side": "classproject:blocks/faeriegrass-side",
+    "overlay": "classproject:blocks/faeriegrass-side",
+    "particle": "classproject:blocks/faeriegrass-bottom"
+  }
+}

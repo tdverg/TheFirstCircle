@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "classproject:block/thrust"
+    },
+    "type=top": {
+      "model": "classproject:block/thrust_top"
+    },
+    "type=double": {
+      "model": "classproject:block/thrust_full"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "thrustanimated",
+        "texture": "key1_sword"
+      },
+      "name": "default"
+    }
+  }
+}

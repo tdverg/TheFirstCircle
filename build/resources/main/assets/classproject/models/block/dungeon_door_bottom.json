@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "classproject:blocks/void",
+    "top": "classproject:blocks/void"
+  }
+}
